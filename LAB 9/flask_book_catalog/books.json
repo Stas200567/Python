@@ -1,0 +1,14 @@
+[
+    {
+        "id": 2,
+        "title": "Brave New World",
+        "author": "Aldous Huxley",
+        "year": 1932
+    },
+    {
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "year": 1937,
+        "id": 3
+    }
+]
