@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block title %}Головна{% endblock %}
+
+{% block content %}
+<h1>Вітаю на моєму сайті!</h1>
+<p>Я [Ваше ім'я], і це мій персональний сайт-портфоліо.</p>
+<img src="{{ url_for('static', filename='images/profile.jpg') }}" alt="Моє фото" width="200">
+{% endblock %}

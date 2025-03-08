@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block title %}Проєкт 1{% endblock %}
+
+{% block content %}
+<h1>Проєкт 1</h1>
+<img src="{{ url_for('static', filename='images/project1.png') }}" alt="Проєкт 1" width="500">
+<p>Опис проєкту, використані технології.</p>
+<a href="https://github.com/your-repo/project1" target="_blank">GitHub</a>
+{% endblock %}
